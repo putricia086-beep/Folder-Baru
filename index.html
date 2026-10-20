@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cargo Drone | Perancangan & Pembuatan Drone Pengangkut Barang</title>
+    <meta
+      name="description"
+      content="Website project perancangan dan pembuatan drone pengangkut barang dengan fokus pada bidang Sistem dan Teknologi Informasi."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <div class="brand">
+          <div class="brand-mark">CD</div>
+          <span>Cargo Drone</span>
+        </div>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#tentang">Tentang</a>
+          <a href="#sistem">Sistem</a>
+          <a href="#teknologi">Teknologi</a>
+          <a href="#uji">Uji Coba</a>
+          <a href="#tim">Tim</a>
+        </nav>
+        <a class="btn btn-primary" href="#kontak">Lihat Detail</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Project STI • Sistem & Teknologi Informasi</p>
+            <h1>Perancangan & Pembuatan Drone Pengangkut Barang</h1>
+            <p class="lead">
+              Pengembangan sistem drone pengangkut barang berbasis otomatisasi,
+              sensor, dan teknologi informasi untuk mendukung distribusi barang
+              yang cepat, efisien, dan aman di area tertentu.
+            </p>
+            <div class="cta-row">
+              <a class="btn btn-primary" href="#sistem">Lihat Sistem</a>
+              <a class="btn btn-secondary" href="#teknologi">Teknologi</a>
+            </div>
+            <ul class="mini-stats">
+              <li><strong>Autopilot</strong><span>Kontrol jarak jauh & otomatis</span></li>
+              <li><strong>Monitoring</strong><span>Data real-time via telemetry</span></li>
+              <li><strong>Payload</strong><span>Pengiriman barang ringan hingga menengah</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="drone-scene">
+              <div class="orb orb-one"></div>
+              <div class="orb orb-two"></div>
+              <div class="drone">
+                <span class="arm arm-1"></span>
+                <span class="arm arm-2"></span>
+                <span class="arm arm-3"></span>
+                <span class="arm arm-4"></span>
+                <span class="center-body"></span>
+                <span class="rotor rotor-1"></span>
+                <span class="rotor rotor-2"></span>
+                <span class="rotor rotor-3"></span>
+                <span class="rotor rotor-4"></span>
+              </div>
+              <div class="status-panel">
+                <div class="panel-row">
+                  <span>Battery</span>
+                  <strong>87%</strong>
+                </div>
+                <div class="panel-row">
+                  <span>Altitude</span>
+                  <strong>42 m</strong>
+                </div>
+                <div class="panel-row">
+                  <span>Speed</span>
+                  <strong>18 m/s</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tentang" class="section">
+        <div class="container two-col">
+          <div class="section-copy reveal">
+            <p class="section-tag">Tentang project</p>
+            <h2>Fokus Sistem dan Teknologi Informasi</h2>
+            <p>
+              Proyek ini tidak hanya berfokus pada perakitan drone, tetapi juga
+              pada pengembangan sistem informasi yang mengintegrasikan kontrol,
+              navigasi, monitoring, dan analisis data. Dengan pendekatan STI,
+              kami merancang bagaimana drone dapat bekerja secara otomatis,
+              aman, dan terukur dalam pengiriman barang.
+            </p>
+            <p>
+              Bagian STI mencakup sistem pengumpulan data dari sensor, pemrosesan
+              data navigasi, algoritma kontrol, antarmuka monitoring, serta
+              integrasi perangkat lunak yang memungkinkan pengelolaan misi drone
+              secara real-time.
+            </p>
+          </div>
+
+          <div class="info-cards reveal">
+            <div class="info-card">
+              <span class="label">01</span>
+              <h3>Monitoring Real-Time</h3>
+              <p>Visualisasi posisi, ketinggian, kecepatan, dan status baterai.</p>
+            </div>
+            <div class="info-card">
+              <span class="label">02</span>
+              <h3>Kontrol Misi</h3>
+              <p>Perencanaan jalur, koordinat tujuan, dan eksekusi otomatis.</p>
+            </div>
+            <div class="info-card">
+              <span class="label">03</span>
+              <h3>Integrasi Sensor</h3>
+              <p>GPS, IMU, ESC, dan sistem komunikasi untuk keamanan terbang.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sistem" class="section alt-bg">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-tag">Arsitektur sistem</p>
+            <h2>Bagaimana sistem cargo drone bekerja</h2>
+          </div>
+
+          <div class="system-grid">
+            <article class="system-card reveal">
+              <div class="icon-wrap">01</div>
+              <h3>Input & Sensor</h3>
+              <p>GPS, IMU, barometer, kamera, dan sensor pendukung untuk posisi serta kestabilan terbang.</p>
+            </article>
+            <article class="system-card reveal">
+              <div class="icon-wrap">02</div>
+              <h3>Kontrol Navigasi</h3>
+              <p>Pengolahan data navigasi dan perencanaan rute untuk mencapai target secara akurat.</p>
+            </article>
+            <article class="system-card reveal">
+              <div class="icon-wrap">03</div>
+              <h3>Flight Controller</h3>
+              <p>Komponen utama yang mengolah sinyal kendali dan menjaga kestabilan drone saat terbang.</p>
+            </article>
+            <article class="system-card reveal">
+              <div class="icon-wrap">04</div>
+              <h3>Payload & Delivery</h3>
+              <p>Modul pengangkut barang yang dapat menahan beban ringan dengan distribusi yang aman.</p>
+            </article>
+            <article class="system-card reveal">
+              <div class="icon-wrap">05</div>
+              <h3>Telemetry</h3>
+              <p>Pengiriman data ke ground station agar operator dapat memantau kondisi drone secara real-time.</p>
+            </article>
+            <article class="system-card reveal">
+              <div class="icon-wrap">06</div>
+              <h3>Monitoring UI</h3>
+              <p>Antarmuka digital untuk status baterai, rute, kondisi terbang, dan log aktivitas.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="teknologi" class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-tag">Teknologi yang digunakan</p>
+            <h2>Stack teknologi untuk sistem cargo drone</h2>
+          </div>
+
+          <div class="tech-layout">
+            <div class="tech-panel reveal">
+              <h3>Perangkat keras</h3>
+              <ul>
+                <li>Flight controller</li>
+                <li>ESC dan motor brushless</li>
+                <li>GPS dan IMU</li>
+                <li>Telemetry radio</li>
+                <li>Battery management system</li>
+                <li>Frame dan payload bay</li>
+              </ul>
+            </div>
+            <div class="tech-panel reveal">
+              <h3>Perangkat lunak</h3>
+              <ul>
+                <li>Sistem kontrol dan navigasi</li>
+                <li>Perancangan misi otomatis</li>
+                <li>Monitoring kondisi drone</li>
+                <li>Analisis data kinerja</li>
+                <li>Interaksi manusia-komputer</li>
+                <li>Dashboard log dan laporan</li>
+              </ul>
+            </div>
+            <div class="tech-panel reveal">
+              <h3>Fungsi STI</h3>
+              <ul>
+                <li>Integrasi sistem sensor dan perangkat</li>
+                <li>Proses data dan keputusan otomatis</li>
+                <li>Desain antarmuka pengguna</li>
+                <li>Pengujian dan validasi sistem</li>
+                <li>Keamanan data dan komunikasi</li>
+                <li>Evaluasi performa & efisiensi</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="uji" class="section alt-bg">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="section-tag">Pengujian & evaluasi</p>
+            <h2>Uji coba dilakukan untuk memastikan performa yang optimal</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item reveal">
+              <span class="time">01</span>
+              <div>
+                <h3>Uji kestabilan</h3>
+                <p>Memastikan drone mampu menahan getaran dan menjaga keseimbangan saat terbang.</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal">
+              <span class="time">02</span>
+              <div>
+                <h3>Uji navigasi</h3>
+                <p>Pengujian rute, koordinat tujuan, dan cara drone menyesuaikan jalur secara otomatis.</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal">
+              <span class="time">03</span>
+              <div>
+                <h3>Uji muatan</h3>
+                <p>Mengukur kemampuan drone membawa beban dengan tetap menjaga kestabilan dan daya tahan.</p>
+              </div>
+            </div>
+            <div class="timeline-item reveal">
+              <span class="time">04</span>
+              <div>
+                <h3>Uji monitoring</h3>
+                <p>Analisis status real-time seperti baterai, GPS, ketinggian, dan kondisi sistem.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section benefits">
+        <div class="container benefits-inner reveal">
+          <div>
+            <p class="section-tag">Manfaat</p>
+            <h2>Keunggulan sistem cargo drone</h2>
+          </div>
+          <div class="benefits-list">
+            <div>
+              <strong>Efisien</strong>
+              <span>Mempercepat proses pengiriman barang ke area yang sulit dijangkau.</span>
+            </div>
+            <div>
+              <strong>Aman</strong>
+              <span>Monitoring dan kontrol sistem membantu meminimalkan risiko kerja.</span>
+            </div>
+            <div>
+              <strong>Terintegrasi</strong>
+              <span>Gabungan hardware, software, dan data membuat sistem lebih terstruktur.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tim" class="section">
+        <div class="container team-box reveal">
+          <div class="team-copy">
+            <p class="section-tag">Tim project</p>
+            <h2>Peran STI dalam pengembangan project</h2>
+            <p>
+              Pada bagian STI, kami berperan dalam merancang sistem, mengelola data,
+              menyusun logika kontrol, serta menyajikan antarmuka monitoring dan laporan
+              untuk mendukung keberhasilan penggunaan cargo drone sebagai solusi logistik modern.
+            </p>
+          </div>
+          <div class="team-stats">
+            <div>
+              <strong>4+</strong>
+              <span>Komponen utama sistem</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Fokus pada integrasi data dan kontrol</span>
+            </div>
+            <div>
+              <strong>Realtime</strong>
+              <span>Monitoring misi dan performa drone</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="kontak" class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="brand footer-brand">
+            <div class="brand-mark">CD</div>
+            <span>Cargo Drone</span>
+          </div>
+          <p>Project perancangan dan pembuatan drone pengangkut barang dengan pendekatan STI.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#tentang">Tentang</a>
+          <a href="#sistem">Sistem</a>
+          <a href="#teknologi">Teknologi</a>
+          <a href="#uji">Uji Coba</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Cargo Drone Project</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
